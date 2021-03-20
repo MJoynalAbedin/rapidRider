@@ -1,0 +1,83 @@
+.pick-form{
+    width: 80%;
+    height: 220px;
+    background-color: #f3efef;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.destination-container{
+
+    width: 300px;
+    margin-right: 10px;
+    height: 400px;
+    background-color: #f3efef;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.motherOfMap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px!important;
+}
+.select-field{
+    width: 100%;
+    border: none;
+    height: 30px;
+    -webkit-appearance: none;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 13px!important;
+}
+.btn-search{
+    width: 100%;
+    margin-top: 10px!important;
+    border-radius: 6px!important;
+    height: 34px;
+    border: none;
+    background-color: #f77117;
+    color: white;
+}
+.pick-text{
+    font-weight: 500;
+    font-size: 17px!important;
+    margin-bottom: 5px!important;
+    color: dimgray;
+}
+.carImg img{
+    
+    width:70px
+}
+.carImg{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.place-name{
+    background-color:orangered;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white
+}
+.peopleIcon img{
+    width:20px
+}
+@media(max-width: 800px){
+    .motherOfMap{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px!important;
+        justify-items:center;
+    }
+    .map{
+        margin-top: 30px;
+        text-align: center
+    }
+    .map img{
+        width:90%;
+    }
+}
