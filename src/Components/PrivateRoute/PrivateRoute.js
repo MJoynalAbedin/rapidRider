@@ -4,6 +4,7 @@ import { userContext } from '../../App';
 
 const PrivateRoute = ({ children, ...rest }) => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    console.log(setLoggedInUser); //netlify error
     return (
         <Route
             {...rest}

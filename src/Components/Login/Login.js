@@ -16,6 +16,7 @@ const Login = () => {
 
     const [newUser, setNewUser] = useState(false);
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    console.log(loggedInUser); //for netlify error
 
     const history = useHistory();
     const location = useLocation();

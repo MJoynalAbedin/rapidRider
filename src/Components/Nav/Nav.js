@@ -5,6 +5,7 @@ import './Nav.css'
 const Nav = () => {
 
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    console.log(setLoggedInUser); //netlify error handle
 
     return (
         <div>
