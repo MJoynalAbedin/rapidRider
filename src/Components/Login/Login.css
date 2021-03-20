@@ -32,7 +32,7 @@
     font-size: 13px;
     color: gray;
     height:34px;
-    border-radius:20px;
+    border-radius:20px!important;
     line-height: 32px;
 }
 .google-btn img{
