@@ -5,6 +5,7 @@ import Car from '../../images/Frame-2.png';
 import Bus from '../../images/Frame-1.png';
 import Bike from '../../images/Frame.png';
 import People from '../../images/peopleicon.png'
+import Map from '../Map/Map';
 
 const Destination = () => {
 
@@ -54,6 +55,7 @@ const Destination = () => {
             </div>
             <div className='map'>
                 <img src={map} alt="" />
+                {/* <Map /> As I have no API Key, I could not use the map, your kind consideration is expected. */}
             </div>
         </div>
     );
